@@ -1,0 +1,7 @@
+com\sapient\dao\ProductDao.class
+com\sapient\web\TableServlet.class
+com\sapient\dao\ProductDaoJpaImpl.class
+com\sapient\web\HelloServlet.class
+com\sapient\dao\DaoException.class
+com\sapient\entity\Product.class
+com\sapient\web\ProductListServlet.class

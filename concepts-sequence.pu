@@ -1,0 +1,7 @@
+@startuml
+
+client actor
+client->Tomcat
+Tomcat -> HttpServlet.service(ServletRequest,ServletResponse)
+HttpServlet.service(ServletRequest,ServletResponse)
+@enduml

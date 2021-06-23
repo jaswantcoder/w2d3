@@ -1,0 +1,21 @@
+@startuml
+
+interface Servlet{
++ init(config:ServletConfig): void
++ service(req:ServletRequest,resp:
++ ServletResponse): void
++ destroy():void
++ getServletInfo(): String
++ getServletConfig(): ServletConfig
+
+}
+
+interface Serializable{}
+interface ServletConfig{}
+
+Servlet <|... GenericServlet
+Serializable <|... GenericServlet
+Serializable
+
+
+@enduml
